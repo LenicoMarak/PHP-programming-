@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>MyServer</title>
+  <meta name="author" content="Aex Software's"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+  <link rel="stylesheet" href="stylePage.css">
+ </head>
+   <body>
+     <div class="butt">
+       <button onclick="openSignIn()">Login</button>
+       <button onClick="openSignUp()">Signup</button>
+     </div>
+     <div class="box" id="popBox">
+        <button onClick="closeSignIn()">&times;</button>
+        <form action="serverSide/login.php" method="post">
+          <div id="filter">
+           <input class="fields1" type="text" name="number" placeholder="Mobile number" required><br>
+           <input class="fields1" type="password" name="password" placeholder="Enter password" required>
+           <a id="aTag1" href="">Forgot password?</a><br>
+           </div>
+           <input id="submitButton" type="submit" name="login" value="Login">
+        </form>
+      </div>
+      <script>
+        let pop=document.getElementById('popBox');
+        function openSignIn(){
+          pop.classList.add('pop-up');
+        }
+        function closeSignIn(){
+          pop.classList.remove('pop-up');
+        }
+        function openSignUp() {
+          window.location.href = "signUp.html";
+        }
+      </script>
+   </body>
+</html>

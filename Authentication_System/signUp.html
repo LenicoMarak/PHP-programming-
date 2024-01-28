@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta name="author" content="Aex Software's"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+  <link rel="stylesheet" href="stylePage.css">
+ </head>
+   <body>
+      <div class="box2">
+        <form onSubmit="return validate()" action="serverSide/validateForm.php" method="post">
+           <label class="lab">First name</label>
+           <input class="fields2" type="text" name="firstName" required><br>
+           <label class="lab">Last name</label>
+           <input class="fields2" type="text" name="lastName" required><br>
+           <label class="lab">Mobile number</label>
+           <input class="fields2" type="number" name="number" required><br>
+           <select name="gender" id="gender">
+              <option value="">-Select Gender-</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+           </select><br><br>
+           <label class="lab">Password</label>
+           <input class="fields2" id="password" type="text" name="password" required><br>
+           <label class="lab">Repeat-Password</label>
+           <input class="fields2" id="confirm_password" type="text" name="passwordRepeat" required><br>
+           <input id="submitButton2" type="submit" name="submit2" value="Submit">
+        </form>
+      </div>
+      <button id="homeButton" onClick="goHome()">Home</button>
+      <script>
+        function validate(){
+           var a=document.getElementById("password").value;
+           var b=document.getElementById("confirm_password").value;
+           if(a!=b){
+              alert("Passwords do no match");
+              return false;
+           }
+        }
+        function goHome(){
+          window.location.href = "index.html";
+        }
+     </script>
+   </body>
+</html>

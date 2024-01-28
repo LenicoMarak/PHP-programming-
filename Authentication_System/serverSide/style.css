@@ -1,0 +1,30 @@
+.sucBox{
+  text-align: center;
+  width: 250px;
+	height: 200px;
+	margin: 50% 20%;
+	box-shadow: 0px 2px 5px rgba(0,0,0,2);
+}
+.sucBox div{
+  background-color: #1eecff;
+}
+.sucBox p{
+  font-family: "Gill Sans",sans-serif;
+}
+.popSms{
+  margin-top: 0;
+  visibility: hidden;
+  transition: transform 0.4s,top 0.4s;
+}
+#ok{
+  margin-top: 40px;
+  border: 1px;
+  width: 40px;
+  border-radius: 2px;
+ 	box-shadow: 0px 2px 5px rgba(0,0,0,2);
+ 	background-color: #00c933;
+  color: #000000;
+}
+#ok:active{
+  background-color: #4e5537;
+}
