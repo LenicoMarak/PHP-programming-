@@ -46,4 +46,4 @@ Contributions are welcome! If you have valuable PHP code snippets, examples, or 
 3. Make your modifications.
 4. Submit a pull request.
 
-## Happy coding with PHP!
+## Happy coding with PHP😄
