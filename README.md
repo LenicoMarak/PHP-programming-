@@ -6,9 +6,8 @@ Welcome to the PHP Programming repository! This collection showcases a variety o
 
 1. [Introduction](#introduction)
 2. [Features](#features)
-3. [Project Structure](#project-structure)
-4. [How to Use](#how-to-use)
-5. [Contributing](#contributing)
+3. [How to Use](#how-to-use)
+4. [Contributing](#contributing)
 
 ## Introduction
 
@@ -19,14 +18,6 @@ This repository is a curated collection of PHP programming resources, covering a
 - **Diverse Code Examples**: Explore a wide variety of PHP code snippets, from basic syntax to advanced features.
 - **Best Practices**: Learn and adopt industry best practices for PHP development.
 - **Modular Structure**: The repository is organized into modules for easy navigation and focused learning.
-
-## Project Structure
-
-The repository follows a modular structure to categorize PHP examples:
-
-- `basics/`: Basic PHP syntax and fundamental concepts.
-- `advanced/`: Advanced PHP topics and features.
-- `web-development/`: PHP code related to web development.
 
 *Feel free to explore each directory for detailed examples.*
 
