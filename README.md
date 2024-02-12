@@ -24,7 +24,7 @@ This repository is a curated collection of PHP programming resources, covering a
 ## How to Use
 
 1. Clone the repository to your local machine.
-2. Navigate to the module relevant to your interest (e.g., `basics/`, `web-development/`).
+2. Navigate to the module relevant to your interest .
 3. Explore PHP files for code examples and documentation.
 4. Integrate snippets into your own projects and experiment.
 
